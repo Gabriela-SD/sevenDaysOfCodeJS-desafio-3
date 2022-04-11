@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+body{   
+    font-family: 'nunito-sans' ;
+    font-size: 1rem;
+    line-height: 2rem;
+    background-color: rgb(14, 13, 13);
+    margin: 2rem;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+section{ 
+    position: relative;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    
+    
+
+}
+.form{
+   
+    border: 1px solid rgb(138, 43, 226); 
+    border-radius: 1rem;
+    color: rgb(138, 43, 226);
+    padding: 1.5rem;
+    max-width: 360px;
+}
+.choice{
+    padding: 0.5rem;
+}
+#resp-choice-f, #resp-choice-b, #resp-choice-esp-full, #resp-mais-tecnologia {
+    padding: 0.5rem;
+    border-top: 1px solid rgb(138, 43, 226); 
+    
+}
+
+input{
+       
+    border-radius: 0.2rem;
+    outline: none;
+    border: 1px solid #9fa2a7;
+    padding-left: 0.5rem;     
+
+
+}
+
+
+.button{
+    color: #fff;
+    background-color:  rgb(138, 43, 226);
+    cursor: pointer;    
+    border-radius: 0.5rem;
+    font-size: 1rem;        
+    border: 1px solid rgb(138, 43, 226);  
+    font-weight: 500;
+    padding: 0.25rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 0.5rem;;
+}
